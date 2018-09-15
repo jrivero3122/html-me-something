@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background: gray;
+}
+
+header, article, footer{
+    background: lightgray;
+    margin: 0px 0px;
+}
+
+header, footer {
+    margin: -20px 0px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+header h1 {
+    text-align: center;
+}
+
+p, h2 {
+    padding: 0px 8px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+article img {
+    width: 100%;
+    max-width: 100%;
+}
